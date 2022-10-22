@@ -222,26 +222,32 @@ int main(){
     // }
 
 
-    char a;
-    scanf("%c", &a);
+    int a;
+    scanf("%d", &a);
 
     switch (a)
     {
-        case 'A':
-            printf("best!!!");
+        case 1:
+        case 2:
+        case 12:
+            printf("winter");
             break;
-        case 'B':
-            printf("good!!");
+        case 3:
+        case 4:
+        case 5:
+            printf("spring");
             break;
-        case 'C':
-            printf("run!");
+        case 6:
+        case 7:
+        case 8:
+            printf("summer");
             break;
-        case 'D':
-            printf("slowly~");
+        case 9:
+        case 10:
+        case 11:
+            printf("fall");
             break;
-        default:
-            printf("what?");
-            break;
+        
     }
     
 
